@@ -8,4 +8,5 @@ Annotations
       *@Service
       *@Primary
       *@Qualifier
-      @Profiles
+      @Profiles and 
+      @Profile({"en", "default"}) -- When no profile is active we can have and use default one
