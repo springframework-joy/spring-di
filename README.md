@@ -8,3 +8,4 @@ Annotations
       *@Service
       *@Primary
       *@Qualifier
+      @Profiles
