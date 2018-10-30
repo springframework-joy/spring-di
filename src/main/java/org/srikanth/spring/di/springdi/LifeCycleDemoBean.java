@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
 public class LifeCycleDemoBean implements InitializingBean, DisposableBean, BeanNameAware, BeanFactoryAware, ApplicationContextAware {
    @Override
    public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
-      System.out.println("setBeanFactory invoked");
+      //System.out.println("setBeanFactory invoked");
       System.out.println("Test");
    }
 
