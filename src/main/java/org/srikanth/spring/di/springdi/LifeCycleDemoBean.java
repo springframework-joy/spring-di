@@ -19,7 +19,6 @@ public class LifeCycleDemoBean implements InitializingBean, DisposableBean, Bean
    public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
       //System.out.println("setBeanFactory invoked");
       System.out.println("Test");
-      System.out.println("test123");
    }
 
    @Override
